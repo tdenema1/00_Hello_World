@@ -1,11 +1,12 @@
 // my first program in C++ (after a few years)
 #include <iostream>
+using namespace std;
 
 int main() {
-	std::cout << "Hello World\n";
+	cout << "Hello World\n";
 	int a;
-	std::cout << "Insert int: ";
-	std::cin >> a;
-	std::cout << a << "\n";
+	cout << "Insert int: ";
+	cin >> a;
+	cout << a << "\n";
 	return 0;
 }
